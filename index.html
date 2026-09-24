@@ -10,6 +10,90 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+    <main>
+      <div class="left-section">
+        <div class="img">
+          <img
+            src=""
+            alt="image"
+          />
+          <canvas></canvas>
+        </div>
+        <div class="upload">
+          <label for="upload-file">Upload</label>
+          <input type="file" name="" id="upload-file" />
+        </div>
+      </div>
+      <div class="sliders">
+        <div class="slider">
+          <p>Saturate</p>
+          <input
+            type="range"
+            name="sat"
+            id="sat"
+            min="0"
+            max="200"
+            value="100"
+          />
+        </div>
+        <div class="slider">
+          <p>Contrast</p>
+          <input
+            type="range"
+            name="con"
+            id="con"
+            min="0"
+            max="200"
+            value="100"
+          />
+        </div>
+        <div class="slider">
+          <p>Brightness</p>
+          <input
+            type="range"
+            name="bri"
+            id="bri"
+            min="0"
+            max="200"
+            value="100"
+          />
+        </div>
+        <div class="slider">
+          <p>Sepia</p>
+          <input type="range" name="sep" id="sep" min="0" max="200" value="0" />
+        </div>
+        <div class="slider">
+          <p>Gray Scale</p>
+          <input
+            type="range"
+            name="gray"
+            id="gray"
+            min="0"
+            max="200"
+            value="0"
+          />
+        </div>
+        <div class="slider">
+          <p>Blur</p>
+          <input
+            type="range"
+            name="blur"
+            id="blur"
+            min="0"
+            max="50"
+            value="0"
+          />
+        </div>
+        <div class="slider">
+          <p>Hue Rotate</p>
+          <input type="range" name="hue" id="hue" min="0" max="360" value="0" />
+        </div>
+        <div class="buttons">
+          <button class="reset">Reset</button>
+          <button class="download">Download</button>
+        </div>
+      </div>
+    </main>
     <script src="main.js"></script>
   </body>
 </html>
